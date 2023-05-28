@@ -19,8 +19,8 @@ app.post("/email", async (req, res) => {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: "sthaict@gmail.com", // Your gmail id
-      pass: "xyajynnmuoyzpkeg", // your generated app password from goole account > security
+      user: "yourgmail@gmail.com", // Your gmail id
+      pass: "yourgeneratedapppassword", // your generated app password from goole account > security
     },
   });
 
